@@ -81,4 +81,4 @@ if 0 <= choice <= 3:
 else:
     print("Invalid choice!")
 print("hi")
-print("wassup")
+print("was")
