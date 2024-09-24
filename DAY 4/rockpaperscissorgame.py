@@ -80,5 +80,3 @@ if 0 <= choice <= 3:
             print("\tYou Won!\n")        
 else:
     print("Invalid choice!")
-print("hi")
-print("was")
