@@ -1,6 +1,6 @@
 states = ["Georgia", "Washington", "Hawaaii"]
 state_At_index = len(states)
-print(states[state_At_index])  
+# print(states[state_At_index])  
 
 #IndexError: list index out of range
 
