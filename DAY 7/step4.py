@@ -90,6 +90,10 @@ while not game_over :
     guess=input("\nGuess a letter: ").lower()
     guess_word=''
     
+    while len(guess)>1:
+        print("Type a single letter please")
+        guess=input("Guess a letter: ").lower()
+        
     if guess in correct_word or guess in incorrect_letters:
         print("You have already chosen this letter!")
 
