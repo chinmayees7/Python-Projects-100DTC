@@ -72,9 +72,3 @@ while play=='y':
 
 print("okay! see you next time!")    
     
-    
-
-
-    
-
-    
