@@ -6,16 +6,16 @@ print("Welcome to the game !")
 print("I am thinking of a number between 1 and 100.")
 
 generated_number=random.randint(1,100)
-lives=0
+
 
 def function():
 
     difficulty=input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
     
     if difficulty=="easy":
-        return lives+10
+        return 10
     elif difficulty=='hard':
-        return lives+5
+        return 5
     return 0
 
 
